@@ -1,10 +1,10 @@
 package oop.inheritance;
 
-public class Ticket implements ISaleableItem{
+public class Publication implements ISaleableItem{
 
-    private String description;
+    private String title;
     private Real price;
-    private String client;
+    private int copies;
 
     @Override
     public Real Price(){
